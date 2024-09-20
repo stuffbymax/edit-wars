@@ -214,3 +214,46 @@ padding: 0;
     cursor: pointer; /* Add cursor pointer for clickable effect */
     /*transition: transform 0.3s ease; /* Add transition effect */
 }
+
+.comparison-table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.table-cell {
+    display: table-cell;
+    padding: 20px;
+    border: 1px solid #2d3748;
+    vertical-align: top;
+    color: #a0aec0;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.header .table-cell {
+    background-color: #2d3748;
+    font-weight: bold;
+    color: #38b2ac;
+    text-align: center;
+}
+
+.table-cell:nth-child(1) {
+    width: 25%;
+    font-weight: bold;
+    color: #38b2ac;
+    background-color: #2d3748;
+}
+
+.table-row:nth-child(odd) {
+    background-color: #2a2e38;
+}
+
+.table-row:nth-child(even) {
+    background-color: #1e232b;
+}
